@@ -1,0 +1,293 @@
+﻿  Window.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\window.cpp(141): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Weapon.cpp
+  vertexarray.cpp
+  vec4.cpp
+  vec3.cpp
+  vec2.cpp
+  timer.cpp
+  tilelayer.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  texture.cpp
+  SSGame.h
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(1001): warning C4005: 'M_PI': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\sdl\include\sdl_stdinc.h(499): note: see previous definition of 'M_PI'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\methods.h(38): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\methods.h(52): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(104): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(113): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(113): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(126): warning C4553: '==': operator has no effect; did you intend '='?
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(191): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  sprite.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  source.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(1001): warning C4005: 'M_PI': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\sdl\include\sdl_stdinc.h(499): note: see previous definition of 'M_PI'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\methods.h(38): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\methods.h(52): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(104): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(113): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(113): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(126): warning C4553: '==': operator has no effect; did you intend '='?
+c:\future\business plan\framework\phoenix\phoenix-core\ssgame.h(191): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  simplegame.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\methods.h(38): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\methods.h(52): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\simplegame.cpp(74): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\future\business plan\framework\phoenix\phoenix-core\simplegame.cpp(74): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\future\business plan\framework\phoenix\phoenix-core\simplegame.cpp(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\simplegame.cpp(92): warning C4553: '==': operator has no effect; did you intend '='?
+  shader.cpp
+  Player.cpp
+  mesh.cpp
+  Menu.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  mat4.cpp
+  main.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Level.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(27): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(28): warning C4244: 'argument': conversion from 'const int' to 'const float', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(655): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(773): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,int,int>(_Objty *,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Phoenix::Maths::vec2,
+              _Objty=Phoenix::Maths::vec2
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(773): note: see reference to function template instantiation 'void std::allocator<_Ty>::construct<_Objty,int,int>(_Objty *,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Phoenix::Maths::vec2,
+              _Objty=Phoenix::Maths::vec2
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(918): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,int,int>(std::allocator<_Ty> &,_Objty *,int &&,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Phoenix::Maths::vec2>,
+              _Ty=Phoenix::Maths::vec2,
+              _Objty=Phoenix::Maths::vec2
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(917): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,int,int>(std::allocator<_Ty> &,_Objty *,int &&,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Phoenix::Maths::vec2>,
+              _Ty=Phoenix::Maths::vec2,
+              _Objty=Phoenix::Maths::vec2
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(929): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Phoenix::Maths::vec2,int,int>(_Ty *,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Phoenix::Maths::vec2
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(928): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<Phoenix::Maths::vec2,int,int>(_Ty *,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Phoenix::Maths::vec2
+          ]
+  c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(49): note: see reference to function template instantiation 'void std::vector<Phoenix::Maths::vec2,std::allocator<_Ty>>::emplace_back<int,int>(int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Phoenix::Maths::vec2
+          ]
+  c:\future\business plan\framework\phoenix\phoenix-core\level.cpp(49): note: see reference to function template instantiation 'void std::vector<Phoenix::Maths::vec2,std::allocator<_Ty>>::emplace_back<int,int>(int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Phoenix::Maths::vec2
+          ]
+  Generating Code...
+c:\future\business plan\framework\phoenix\phoenix-core\vec3.cpp(69): warning C4172: returning address of local variable or temporary
+  Compiling...
+  layer.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  lable.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  InputManager.cpp
+  indexbuff.cpp
+  Human.cpp
+  group.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\group.cpp(16): warning C4018: '<': signed/unsigned mismatch
+  Benchmark.h
+  framework.cpp
+  Enemy.cpp
+  camera3D.cpp
+  camera.cpp
+  Bullet.cpp
+  buffer.cpp
+  Benchmark.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\future\business plan\framework\phoenix\externel\glfw\include\glfw\glfw3.h(85): note: see previous definition of 'APIENTRY'
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\benchmark.cpp(74): warning C4553: '==': operator has no effect; did you intend '='?
+c:\future\business plan\framework\phoenix\phoenix-core\benchmark.cpp(120): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  batchrenderer2d.cpp
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(52): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(53): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\future\business plan\framework\phoenix\phoenix-core\renderable2d.h(55): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Agent.cpp
+  Generating Code...
+  lzio.c
+  lvm.c
+  lutf8lib.c
+  lundump.c
+  ltm.c
+  ltablib.c
+  ltable.c
+  lstrlib.c
+  lstring.c
+  lstate.c
+  lparser.c
+  loslib.c
+  lopcodes.c
+  lobject.c
+  loadlib.c
+  lmem.c
+  lmathlib.c
+  llex.c
+  liolib.c
+  linit.c
+  Generating Code...
+  Compiling...
+  lgc.c
+  lfunc.c
+  ldump.c
+  ldo.c
+  ldebug.c
+  ldblib.c
+  lctype.c
+  lcorolib.c
+  lcode.c
+  lbitlib.c
+  lbaselib.c
+  lauxlib.c
+  lapi.c
+c:\future\business plan\framework\phoenix\phoenix-core\lua\lapi.c(398): warning C4244: 'return': conversion from 'lua_Unsigned' to 'size_t', possible loss of data
+  winfnt.c
+  type42.c
+  type1.c
+  truetype.c
+  smooth.c
+  sfnt.c
+  raster.c
+  Generating Code...
+  Compiling...
+  psmodule.c
+  pshinter.c
+  psaux.c
+  pfr.c
+  pcf.c
+  ftlzw.c
+  ftgzip.c
+  type1cid.c
+  cff.c
+  ftcache.c
+  bdf.c
+  ftwinfnt.c
+  fttype1.c
+  ftsystem.c
+  ftsynth.c
+  ftstroke.c
+  ftpfr.c
+  ftpatent.c
+  ftotval.c
+  ftmm.c
+  Generating Code...
+  Compiling...
+  ftlcdfil.c
+  ftinit.c
+  ftgxval.c
+  ftglyph.c
+  ftgasp.c
+  ftfstype.c
+  ftdebug.c
+  ftbitmap.c
+  ftbbox.c
+  ftbase.c
+  autofit.c
+  vector.c
+  utf8-utils.c
+  texture-font.c
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\texture-font.c(449): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+  texture-atlas.c
+  platform.c
+  edtaa3func.c
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'pfrac': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'phiscaled': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'err1': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(66): warning C4101: 'p': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(66): warning C4101: 'q': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'errsign': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'phi': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'err': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'err0': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'qfrac': unreferenced local variable
+c:\future\business plan\framework\phoenix\phoenix-core\external\freetype-gl\edtaa3func.c(67): warning C4101: 'ascaled': unreferenced local variable
+  distance-field.c
+  Generating Code...
+C:\Future\Business Plan\Framework\Phoenix\bin\Debug\Intermediate\Benchmark.obj : warning LNK4042: object specified more than once; extras ignored
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Future\Business Plan\Framework\Phoenix\bin\Debug\vc120.pdb'; linking object as if no debug info
+  Phoenix-Core.vcxproj -> C:\Future\Business Plan\Framework\Phoenix\bin\Debug\Phoenix-Core.exe
+  Phoenix-Core.vcxproj -> C:\Future\Business Plan\Framework\Phoenix\bin\Debug\Phoenix-Core.pdb (Partial PDB)

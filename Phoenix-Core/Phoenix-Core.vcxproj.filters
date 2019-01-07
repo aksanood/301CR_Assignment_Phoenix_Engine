@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{7f2fe06e-6737-4037-a6b0-33edbc5d0dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{4d5759ba-ca0b-412e-bc24-9e9b54080206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maths">
+      <UniqueIdentifier>{7c69d397-a5e3-4771-8673-b8d2d410f221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{be0355f9-c5b7-452d-92d7-6b36c0afff4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{d9350207-c95a-4658-902a-968ba6a5b8e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Buffers">
+      <UniqueIdentifier>{5eb92af4-6e99-43a9-b412-e516d1762bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Layers">
+      <UniqueIdentifier>{4f52a313-687c-4e06-8197-8053d6cafd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Meshes">
+      <UniqueIdentifier>{f4b7e173-df94-435c-a1bf-7794bf368fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externals">
+      <UniqueIdentifier>{50d042d8-40df-41f0-a691-263740f59a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externals\FreeType">
+      <UniqueIdentifier>{de830457-da87-4a96-8bfc-17702fc09d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externals\FreeType\FTModules">
+      <UniqueIdentifier>{882d3894-d3b2-4442-8aa6-289b08799714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Externals">
+      <UniqueIdentifier>{fd9d1102-4ed5-4347-a2ae-2ae53e72e927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Externals\FreeType">
+      <UniqueIdentifier>{e46b7ef7-aa9b-4529-8aea-7fe2f73e0c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Externals\FreeTypeGL">
+      <UniqueIdentifier>{02523699-67be-49b6-9ae3-81da198b58d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externals\FreeTypeGL">
+      <UniqueIdentifier>{3e568081-2ccb-49cf-a4fa-ce01793cd728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Benchmark">
+      <UniqueIdentifier>{226036b8-3c01-4698-9175-a5ef57b845ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games">
+      <UniqueIdentifier>{ee376ff6-00a1-470b-899c-53c6f49f35c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\SimpleGame">
+      <UniqueIdentifier>{290675fd-c449-4320-ba45-cf2114ca48f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProceduralEngine">
+      <UniqueIdentifier>{b938b6a7-565b-4147-b6d5-1e52991e17a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\SidescrollerShooting">
+      <UniqueIdentifier>{a81c1705-415d-415a-8ce7-02a8161e2126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua">
+      <UniqueIdentifier>{72382b5b-df26-48ca-84ec-bcdb4f5d599d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="mat4.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="indexbuff.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexarray.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="batchrenderer2d.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="layer.cpp">
+      <Filter>Source Files\Graphics\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="tilelayer.cpp">
+      <Filter>Source Files\Graphics\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Source Files\Graphics\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Graphics\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\autofit\autofit.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\bdf\bdf.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\cff\cff.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftbase.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftbitmap.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\cache\ftcache.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftdebug.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftfstype.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftgasp.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftglyph.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\gzip\ftgzip.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftinit.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\lzw\ftlzw.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftstroke.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\smooth\smooth.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftbbox.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftgxval.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftlcdfil.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftmm.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftotval.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftpatent.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftpfr.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftsynth.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\fttype1.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftwinfnt.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\pcf\pcf.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\pfr\pfr.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\psaux\psaux.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\pshinter\pshinter.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\psnames\psmodule.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\raster\raster.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\sfnt\sfnt.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\truetype\truetype.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\type1\type1.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\cid\type1cid.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\type42\type42.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\winfonts\winfnt.c">
+      <Filter>Source Files\Externals\FreeType\FTModules</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType\src\base\ftsystem.c">
+      <Filter>Source Files\Externals\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\platform.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\texture-atlas.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\texture-font.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\vector.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\utf8-utils.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\distance-field.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="External\FreeType-GL\edtaa3func.c">
+      <Filter>Source Files\Externals\FreeTypeGL</Filter>
+    </ClCompile>
+    <ClCompile Include="lable.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="camera3D.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Benchmark.cpp">
+      <Filter>Source Files\Benchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="Benchmark.h">
+      <Filter>Source Files\Benchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="simplegame.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files\Games\SidescrollerShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGame.h">
+      <Filter>Source Files\Games\SidescrollerShooting</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbitlib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcorolib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lctype.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lutf8lib.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="math_func.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="fileutils.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="indexbuff.h">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexarray.h">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderable2d.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer2d.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="batchrenderer2d.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>Source Files\Graphics\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="tilelayer.h">
+      <Filter>Source Files\Graphics\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="timeline.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Source Files\Graphics\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="imageloader.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer3D.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="camera3D.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Source Files\Graphics\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Source Files\Graphics\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType\include\ft2build.h">
+      <Filter>Header Files\Externals\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType\include\freetype\config\ftconfig.h">
+      <Filter>Header Files\Externals\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType\include\freetype\config\ftheader.h">
+      <Filter>Header Files\Externals\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType\include\freetype\config\ftmodule.h">
+      <Filter>Header Files\Externals\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType\include\freetype\config\ftoption.h">
+      <Filter>Header Files\Externals\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType\include\freetype\config\ftstdlib.h">
+      <Filter>Header Files\Externals\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\freetype-gl.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\opengl.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\platform.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\texture-atlas.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\texture-font.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\vec234.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\vector.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\utf8-utils.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\distance-field.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="External\FreeType-GL\edtaa3func.h">
+      <Filter>Header Files\Externals\FreeTypeGL</Filter>
+    </ClInclude>
+    <ClInclude Include="lable.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phoenix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="methods.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Games\SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lprefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="basic.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="test.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="test.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="testGeometry.gs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="testTessellationEvaluationlShader.tes">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="testTessellationControlShader.tcs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="benchmark.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="benchmark.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="test1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="test2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

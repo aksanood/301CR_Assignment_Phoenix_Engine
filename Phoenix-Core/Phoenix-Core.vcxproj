@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6CEC18AC-B8B9-4FD7-9780-6A774F059025}</ProjectGuid>
+    <RootNamespace>PhoenixCore</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\External\FreeType\include;$(SolutionDir)Externel\SDL\include;$(SolutionDir)Externel\GLM\include;$(SolutionDir)Externel\FREEIMAGE\include;$(SolutionDir)Externel\GLEW\include;$(SolutionDir)Externel\GLFW\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Externel\FREEIMAGE\lib;$(SolutionDir)Externel\GLEW\lib;$(SolutionDir)Externel\SDL\lib\x86;$(SolutionDir)Externel\SDLTTF\lib;$(SolutionDir)Externel\GLFW\lib-vc2015;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\External\FreeType\include;$(SolutionDir)Externel\SDL\include;$(SolutionDir)Externel\GLEW\include;$(SolutionDir)Externel\GLFW\include;$(SolutionDir)Externel\FREEIMAGE\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Externel\FREEIMAGE\lib;$(SolutionDir)Externel\GLEW\lib;$(SolutionDir)Externel\SDL\lib\x86;$(SolutionDir)Externel\SDLTTF\lib;$(SolutionDir)Externel\GLFW\lib-vc2015;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>GLEW_STATIC;FT2_BUILD_LIBRARY;_LIB;WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionDir)Externel\SDL\include;$(SolutionDir)Externel\SFML\include;$(SolutionDir)Externel\SDLTTF\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glfw3.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2_ttf.lib;opengl32.lib;FreeImage.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)Externel\SFML\lib;$(SolutionDir)Externel\SDL\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>GLEW_STATIC;FT2_BUILD_LIBRARY;_LIB;WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionDir)Externel\SDL\include;$(SolutionDir)Externel\SFML\include;$(SolutionDir)Externel\SDLTTF\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3.lib;glew32s.lib;SDL2.lib;SDL2main.lib;SDL2_ttf.lib;FreeImage.lib;opengl32.lib;sfml-network.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)Externel\SFML\lib;$(SolutionDir)Externel\SDL\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Agent.cpp" />
+    <ClCompile Include="batchrenderer2d.cpp" />
+    <ClCompile Include="Benchmark.cpp" />
+    <ClCompile Include="buffer.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="camera3D.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="External\FreeType-GL\distance-field.c" />
+    <ClCompile Include="External\FreeType-GL\edtaa3func.c" />
+    <ClCompile Include="External\FreeType-GL\platform.c" />
+    <ClCompile Include="External\FreeType-GL\texture-atlas.c" />
+    <ClCompile Include="External\FreeType-GL\texture-font.c" />
+    <ClCompile Include="External\FreeType-GL\utf8-utils.c" />
+    <ClCompile Include="External\FreeType-GL\vector.c" />
+    <ClCompile Include="External\FreeType\src\autofit\autofit.c" />
+    <ClCompile Include="External\FreeType\src\base\ftbase.c" />
+    <ClCompile Include="External\FreeType\src\base\ftbbox.c" />
+    <ClCompile Include="External\FreeType\src\base\ftbitmap.c" />
+    <ClCompile Include="External\FreeType\src\base\ftdebug.c" />
+    <ClCompile Include="External\FreeType\src\base\ftfstype.c" />
+    <ClCompile Include="External\FreeType\src\base\ftgasp.c" />
+    <ClCompile Include="External\FreeType\src\base\ftglyph.c" />
+    <ClCompile Include="External\FreeType\src\base\ftgxval.c" />
+    <ClCompile Include="External\FreeType\src\base\ftinit.c" />
+    <ClCompile Include="External\FreeType\src\base\ftlcdfil.c" />
+    <ClCompile Include="External\FreeType\src\base\ftmm.c" />
+    <ClCompile Include="External\FreeType\src\base\ftotval.c" />
+    <ClCompile Include="External\FreeType\src\base\ftpatent.c" />
+    <ClCompile Include="External\FreeType\src\base\ftpfr.c" />
+    <ClCompile Include="External\FreeType\src\base\ftstroke.c" />
+    <ClCompile Include="External\FreeType\src\base\ftsynth.c" />
+    <ClCompile Include="External\FreeType\src\base\ftsystem.c" />
+    <ClCompile Include="External\FreeType\src\base\fttype1.c" />
+    <ClCompile Include="External\FreeType\src\base\ftwinfnt.c" />
+    <ClCompile Include="External\FreeType\src\bdf\bdf.c" />
+    <ClCompile Include="External\FreeType\src\cache\ftcache.c" />
+    <ClCompile Include="External\FreeType\src\cff\cff.c" />
+    <ClCompile Include="External\FreeType\src\cid\type1cid.c" />
+    <ClCompile Include="External\FreeType\src\gzip\ftgzip.c" />
+    <ClCompile Include="External\FreeType\src\lzw\ftlzw.c" />
+    <ClCompile Include="External\FreeType\src\pcf\pcf.c" />
+    <ClCompile Include="External\FreeType\src\pfr\pfr.c" />
+    <ClCompile Include="External\FreeType\src\psaux\psaux.c" />
+    <ClCompile Include="External\FreeType\src\pshinter\pshinter.c" />
+    <ClCompile Include="External\FreeType\src\psnames\psmodule.c" />
+    <ClCompile Include="External\FreeType\src\raster\raster.c" />
+    <ClCompile Include="External\FreeType\src\sfnt\sfnt.c" />
+    <ClCompile Include="External\FreeType\src\smooth\smooth.c" />
+    <ClCompile Include="External\FreeType\src\truetype\truetype.c" />
+    <ClCompile Include="External\FreeType\src\type1\type1.c" />
+    <ClCompile Include="External\FreeType\src\type42\type42.c" />
+    <ClCompile Include="External\FreeType\src\winfonts\winfnt.c" />
+    <ClCompile Include="framework.cpp" />
+    <ClCompile Include="Benchmark.h" />
+    <ClCompile Include="group.cpp" />
+    <ClCompile Include="Human.cpp" />
+    <ClCompile Include="indexbuff.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="lable.cpp" />
+    <ClCompile Include="layer.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="lua\lapi.c" />
+    <ClCompile Include="lua\lauxlib.c" />
+    <ClCompile Include="lua\lbaselib.c" />
+    <ClCompile Include="lua\lbitlib.c" />
+    <ClCompile Include="lua\lcode.c" />
+    <ClCompile Include="lua\lcorolib.c" />
+    <ClCompile Include="lua\lctype.c" />
+    <ClCompile Include="lua\ldblib.c" />
+    <ClCompile Include="lua\ldebug.c" />
+    <ClCompile Include="lua\ldo.c" />
+    <ClCompile Include="lua\ldump.c" />
+    <ClCompile Include="lua\lfunc.c" />
+    <ClCompile Include="lua\lgc.c" />
+    <ClCompile Include="lua\linit.c" />
+    <ClCompile Include="lua\liolib.c" />
+    <ClCompile Include="lua\llex.c" />
+    <ClCompile Include="lua\lmathlib.c" />
+    <ClCompile Include="lua\lmem.c" />
+    <ClCompile Include="lua\loadlib.c" />
+    <ClCompile Include="lua\lobject.c" />
+    <ClCompile Include="lua\lopcodes.c" />
+    <ClCompile Include="lua\loslib.c" />
+    <ClCompile Include="lua\lparser.c" />
+    <ClCompile Include="lua\lstate.c" />
+    <ClCompile Include="lua\lstring.c" />
+    <ClCompile Include="lua\lstrlib.c" />
+    <ClCompile Include="lua\ltable.c" />
+    <ClCompile Include="lua\ltablib.c" />
+    <ClCompile Include="lua\ltm.c" />
+    <ClCompile Include="lua\lundump.c" />
+    <ClCompile Include="lua\lutf8lib.c" />
+    <ClCompile Include="lua\lvm.c" />
+    <ClCompile Include="lua\lzio.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mat4.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="simplegame.cpp" />
+    <ClCompile Include="source.cpp" />
+    <ClCompile Include="sprite.cpp" />
+    <ClCompile Include="SSGame.h" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="tilelayer.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="vec2.cpp" />
+    <ClCompile Include="vec3.cpp" />
+    <ClCompile Include="vec4.cpp" />
+    <ClCompile Include="vertexarray.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agent.h" />
+    <ClInclude Include="batchrenderer2d.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="camera3D.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="External\FreeType-GL\distance-field.h" />
+    <ClInclude Include="External\FreeType-GL\edtaa3func.h" />
+    <ClInclude Include="External\FreeType-GL\freetype-gl.h" />
+    <ClInclude Include="External\FreeType-GL\opengl.h" />
+    <ClInclude Include="External\FreeType-GL\platform.h" />
+    <ClInclude Include="External\FreeType-GL\texture-atlas.h" />
+    <ClInclude Include="External\FreeType-GL\texture-font.h" />
+    <ClInclude Include="External\FreeType-GL\utf8-utils.h" />
+    <ClInclude Include="External\FreeType-GL\vec234.h" />
+    <ClInclude Include="External\FreeType-GL\vector.h" />
+    <ClInclude Include="External\FreeType\include\freetype\config\ftconfig.h" />
+    <ClInclude Include="External\FreeType\include\freetype\config\ftheader.h" />
+    <ClInclude Include="External\FreeType\include\freetype\config\ftmodule.h" />
+    <ClInclude Include="External\FreeType\include\freetype\config\ftoption.h" />
+    <ClInclude Include="External\FreeType\include\freetype\config\ftstdlib.h" />
+    <ClInclude Include="External\FreeType\include\ft2build.h" />
+    <ClInclude Include="fileutils.h" />
+    <ClInclude Include="group.h" />
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="imageloader.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="indexbuff.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="lable.h" />
+    <ClInclude Include="layer.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="lua\lapi.h" />
+    <ClInclude Include="lua\lauxlib.h" />
+    <ClInclude Include="lua\lcode.h" />
+    <ClInclude Include="lua\lctype.h" />
+    <ClInclude Include="lua\ldebug.h" />
+    <ClInclude Include="lua\ldo.h" />
+    <ClInclude Include="lua\lfunc.h" />
+    <ClInclude Include="lua\lgc.h" />
+    <ClInclude Include="lua\llex.h" />
+    <ClInclude Include="lua\llimits.h" />
+    <ClInclude Include="lua\lmem.h" />
+    <ClInclude Include="lua\lobject.h" />
+    <ClInclude Include="lua\lopcodes.h" />
+    <ClInclude Include="lua\lparser.h" />
+    <ClInclude Include="lua\lprefix.h" />
+    <ClInclude Include="lua\lstate.h" />
+    <ClInclude Include="lua\lstring.h" />
+    <ClInclude Include="lua\ltable.h" />
+    <ClInclude Include="lua\ltm.h" />
+    <ClInclude Include="lua\lua.h" />
+    <ClInclude Include="lua\lua.hpp" />
+    <ClInclude Include="lua\luaconf.h" />
+    <ClInclude Include="lua\lualib.h" />
+    <ClInclude Include="lua\lundump.h" />
+    <ClInclude Include="lua\lvm.h" />
+    <ClInclude Include="lua\lzio.h" />
+    <ClInclude Include="mat4.h" />
+    <ClInclude Include="maths.h" />
+    <ClInclude Include="math_func.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="phoenix.h" />
+    <ClInclude Include="methods.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="renderable2d.h" />
+    <ClInclude Include="renderer2d.h" />
+    <ClInclude Include="renderer3D.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="sprite.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="tilelayer.h" />
+    <ClInclude Include="timeline.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="triangle.h" />
+    <ClInclude Include="vec2.h" />
+    <ClInclude Include="vec3.h" />
+    <ClInclude Include="vec4.h" />
+    <ClInclude Include="buffer.h" />
+    <ClInclude Include="vertexarray.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic.fs" />
+    <None Include="basic.vs" />
+    <None Include="benchmark.fs" />
+    <None Include="benchmark.vs" />
+    <None Include="test.fs" />
+    <None Include="test.vs" />
+    <None Include="testGeometry.gs" />
+    <None Include="testTessellationControlShader.tcs" />
+    <None Include="testTessellationEvaluationlShader.tes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="test.png" />
+    <Image Include="test1.png" />
+    <Image Include="test2.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
